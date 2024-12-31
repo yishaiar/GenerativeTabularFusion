@@ -23,8 +23,12 @@ project run from main.py / main.ipynb
 ## relevant papers:
 - [https://arxiv.org/abs/2006.11239] DDPM
 
-
+rbm:
 v1: https://github.com/bacnguyencong/rbm-pytorch
 v2: https://www.kaggle.com/code/abedi756/boltzmann-machine
 v3: https://github.com/GabrielBianconi/pytorch-rbm/tree/master
 v4: https://staff.fnwi.uva.nl/e.peerbooms/rbm.html
+
+ddpm:
+v1: https://github.com/abarankab/DDPM
+v2: https://www.kaggle.com/code/vikramsandu/ddpm-from-scratch-in-pytorch
