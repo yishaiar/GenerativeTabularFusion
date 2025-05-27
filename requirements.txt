@@ -1,8 +1,25 @@
 python-dotenv
+numpy<2.0
 torch
+torchsummary
 torchvision
 scikit-learn
-numpy
+
 pandas
 matplotlib
 seaborn
+
+wandb
+tqdm
+
+# # metal support
+# pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+# # Verify:
+# import torch
+# if torch.backends.mps.is_available():
+#     mps_device = torch.device("mps")
+#     x = torch.ones(1, device=mps_device)
+#     print (x)
+# else:
+#     print ("MPS device not found.")
+# # output: tensor([1.], device='mps:0')

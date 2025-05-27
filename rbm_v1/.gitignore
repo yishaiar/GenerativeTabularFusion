@@ -3,6 +3,7 @@ output/processed/
 output/raw/
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.DS_Store
 output/
 *.py[cod]
 *$py.class
